@@ -4,7 +4,7 @@ import CardsServicios from './CardsServicios'
 
 const NuestrosServiciosSection = () => {
   return (
-    <section className='bg-celeste m-10 py-14 bg-opacity-10'>
+    <section className='bg-celeste m-10 py-16 bg-opacity-10'>
       <SolucionesAdaptadas/>
       <CardsServicios/>
     </section>
