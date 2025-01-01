@@ -5,8 +5,8 @@ import SliderLogo from "../../components/SliderLogo";
 
 const ContenidoHeroe = () => {
   return (
-    <section className="flex items-center gap-10 h-[70vh] relative">
-      <div className="max-w-xl gap-5 flex flex-col">
+    <section className="flex items-center gap-14 h-[70vh] relative">
+      <div className="w-1/2 gap-5 flex flex-col">
         <h1 className="text-negro text-wrap text-6xl font-black">
           Soluciones webs a <strong className="text-azul">Medida.</strong> Tu
           Visión, Nuestra <strong className="text-azul">Realidad</strong>
@@ -31,7 +31,7 @@ const ContenidoHeroe = () => {
         <img
           src={HombreORdenador}
           alt="Hombre con ordenador"
-          className="w-full h-auto rounded-lg absolute z-10 w-auto"
+          className="w-full h-auto rounded-lg absolute z-10"
         />
         <img
           src={Circulo}

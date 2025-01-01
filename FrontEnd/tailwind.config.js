@@ -10,6 +10,7 @@ module.exports = {
       azul: "#1683F8",
       rojo: "#FE4040",
       blanco: "#FFFFFF",
+      celeste: "#1683F8"
     },
     extend: {
       animation: {
