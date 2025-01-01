@@ -9,9 +9,19 @@ module.exports = {
       amarillo: "#FED940",
       azul: "#1683F8",
       rojo: "#FE4040",
-      blanco: "#FFFFFF"
+      blanco: "#FFFFFF",
     },
-    extend: {},
+    extend: {
+      animation: {
+        scroll: "scroll 30s linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" }, 
+        },
+      },
+    },
   },
   plugins: [],
 };

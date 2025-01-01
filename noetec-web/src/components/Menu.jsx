@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Menu = () => {
   return (
     <div className="flex text-negro">
-      <ul className="flex gap-5 items-center text-2xl">
+      <ul className="flex gap-5 items-center text-xl">
         <li>
           <Link to="/" className="hover:underline ">
             Inicio
