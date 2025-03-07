@@ -3,6 +3,7 @@ import Hero from "./HeroSection";
 import EspecialistaCreacion from "./EspecialistaCreacionSection";
 import NuestrosServiciosSection from "./NuestrosServiciosSection";
 import NuestrosProyectosSection from "./NuestrosProyectosSection";
+import BuscasAsesoriaSection from "./BuscasAsesoriaSection";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <EspecialistaCreacion/>
       <NuestrosServiciosSection/>
       <NuestrosProyectosSection/>
+      <BuscasAsesoriaSection/>
     </>
   );
 };
